@@ -1,6 +1,6 @@
-package org.oauth2resourceserver120250105.repositories;
+package org.oauth2resourceserver2.repositories;
 
-import org.oauth2resourceserver120250105.models.Author;
+import org.oauth2resourceserver2.models.Author;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 

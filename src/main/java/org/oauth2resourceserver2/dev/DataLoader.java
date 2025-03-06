@@ -1,8 +1,8 @@
-package org.oauth2resourceserver120250105.dev;
+package org.oauth2resourceserver2.dev;
 
 import lombok.RequiredArgsConstructor;
-import org.oauth2resourceserver120250105.models.Author;
-import org.oauth2resourceserver120250105.repositories.AuthorRepository;
+import org.oauth2resourceserver2.models.Author;
+import org.oauth2resourceserver2.repositories.AuthorRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

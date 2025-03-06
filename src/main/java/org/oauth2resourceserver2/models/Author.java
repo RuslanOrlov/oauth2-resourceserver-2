@@ -1,4 +1,4 @@
-package org.oauth2resourceserver120250105.models;
+package org.oauth2resourceserver2.models;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package org.oauth2resourceserver120250105.config;
+package org.oauth2resourceserver2.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

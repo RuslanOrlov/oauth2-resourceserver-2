@@ -1,9 +1,9 @@
-package org.oauth2resourceserver120250105.controllers;
+package org.oauth2resourceserver2.controllers;
 
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
-import org.oauth2resourceserver120250105.models.Author;
-import org.oauth2resourceserver120250105.repositories.AuthorRepository;
+import org.oauth2resourceserver2.models.Author;
+import org.oauth2resourceserver2.repositories.AuthorRepository;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
