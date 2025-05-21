@@ -28,22 +28,4 @@ public class SecurityConfig {
     JwtDecoder jwtDecoder() {
         return JwtDecoders.fromIssuerLocation("http://authserver:9000");
     }
-
-    /*@Bean
-    UserDetailsService userDetailsService(MyUserRepository userRepository) {
-        return username -> {
-            MyUser myUser = userRepository.findByUsername(username).orElseThrow(() ->
-                    new UsernameNotFoundException("User '" + username + "' not found"));
-            return User.builder()
-                    .username(myUser.getUsername())
-                    .password(myUser.getPassword())
-                    .roles(myUser.getRole().split(","))
-                    .build();
-        };
-    }*/
-
-    /*@Bean
-    PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
-    }*/
 }
